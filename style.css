@@ -1,0 +1,421 @@
+.header-left{
+    background-color: black;
+    border-bottom:solid 2px white;
+    border-top: solid 2px white;
+}
+.headr-left ul{
+    list-style: none;
+    
+    
+}
+.headr-left i{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: #c5c5c5;
+    border: solid;
+    border-radius: 50%;
+    
+}
+.headr-left .facebook:hover{
+    color: rgb(17, 134, 202);
+    border: solid white;
+} 
+.headr-left .instagram:hover{
+    color: rgb(240, 24, 150);
+    border: solid white;
+}
+
+.headr-left .tiktok:hover{
+    color: #fff;
+    border: solid white;
+    
+}
+.headr-left .youtube:hover{
+    color: rgb(233, 62, 62);
+    border: solid white;
+    
+}
+.headr-right{
+    float: right;
+}
+.headr-right span{
+    color: #fff;
+    font-size: 15px;
+    padding-top: 15px;
+    margin-left: 5px;
+}
+
+.headr-right span:hover{
+    color:rgb(233, 62, 62);
+    cursor: pointer;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    
+}
+.icon1{
+    font-size: 50px;
+    border: solid 1px #fff;
+    border-radius:  35px;
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+    color: rgb(238, 52, 52);
+    
+}
+.txt1{
+    font-size: 30px;
+    color: white;
+    
+}
+.txt2{
+    font-size:18px;
+    color: white;
+}
+.div1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgproduct{
+    width: 250px;
+    height: 300px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.divproduct{
+    display: flex;
+    justify-content: center;
+
+}
+.btnprodcut{
+    color: black;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 10px;   
+    border-radius: 20px;
+}
+.btnprodcut:hover {
+    color: white;
+    background-color: red;
+}
+.imgproduct:hover{
+    box-shadow: 0px 0px 30px red;
+    border: solid 1px ;
+
+    
+}
+.divproduct a:hover{
+    box-shadow: 0px 0px 30px red;
+    border: solid 1px ;
+    border-radius: 20px;
+    
+}
+.imghotproduct{
+    height: 300px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+.divhotproduct{
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 350px;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.formhotproduct{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.titleproduct{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.titleprice{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.btnprodcut1{
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+
+}
+.btnprodcut2{
+    height: 40px;
+    width: 120px;
+    margin-top:10px;
+    font-size: 20px;
+}
+.btnprodcut1:hover ,.btnprodcut2:hover{
+    background-color: red;
+}
+.divhotproduct:hover{
+    box-shadow: 0px  0px 20px #fff;
+
+}
+.titleproduct:hover{
+    text-decoration: none;
+    color: red;
+}
+.divhotproduct1{
+    display: flex;
+    justify-content: center;
+}
+.txt3{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.imgnew{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.divnew1{
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+.divnew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+.txtnew1{
+    font-size: 15px;
+    color: #fff;
+}
+.txtnew2{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    color: #fff;
+}
+.txtnew2:hover{
+    text-decoration: none;
+    color: red;
+}
+.imgnew:hover{
+    box-shadow: 0 0 20px red;
+}
+.txtnew3{
+    font-size: 30px;
+    text-align: center;
+}
+.txt4{
+    background-color: rgb(236, 52, 52);
+    font-size: 35px;
+    color: white;
+}
+
+@keyframes anime {
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+.contactsocial{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ 
+}
+.icon2{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid var(--color);
+    animation: anime 3s linear infinite;
+    background: var(--color);
+    box-shadow: 0px 0px 90px 18px var(--color);
+}
+.icon2:nth-child(even){
+    animation-delay: 1.5s;
+}
+.aicon2{
+    color: #fff;
+    text-decoration: none;
+
+}
+.brandname1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    height: 100%;
+    width: 400px;
+    border: solid 2px var(--color1);
+    box-shadow: 0px 0px 20px 18px var(--color1) ;
+    animation: animationbrand 5s alternate infinite;
+    margin-bottom: 25px;
+}
+.brandname2{
+    text-decoration: none;
+    color: #fff;
+
+    
+}
+.brandname2:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.brandname{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtbrand{
+    color: var(--color1);
+    animation: animationbrand 5s alternate infinite;
+    
+ 
+}
+@keyframes animationbrand{
+    0%{
+        filter: hue-rotate(279deg);
+    }
+    50%{
+        filter: hue-rotate(197deg);
+    }
+    100%{
+        filter: hue-rotate(12deg);
+    }
+}
+.imgcontact{
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.iconcontact{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.txtcontact{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: white;
+}
+.divcontact{
+    background-color: black;
+    border-bottom: 1px white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.txtcontact1{
+    margin-top: 15px;
+    font-size: 30px;
+    color: white;
+}
+.txtcontact2{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.txtcontact2:hover{
+    text-decoration: none;
+    color: red;
+}
+.body{
+    background-color: black;
+}
+#divnav{
+    background-color: black;
+
+}
+#divnav1{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#divnav2{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+#divnav2:hover{
+    color: red;
+    text-decoration: none;
+}
+#divnav4{
+    color: #fff;
+    font-size: 20px;
+    margin-right:10px;
+    margin-top: 20px;
+}
+#divnav4:hover{
+    color: red;
+    text-decoration: none;
+}
+#footericon{
+    font-size: 50px;
+    color: #fff;
+    margin: top 10px; ;
+}
+.txttil{
+    font-size: 40px;
+    color: #fff;
+}
+.txttil1{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
